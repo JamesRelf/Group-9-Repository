@@ -7,16 +7,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] CharacterController controller;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundMask;
-    [SerializeField] Camera playerCamera;
+    [SerializeField] protected Camera playerCamera;
 
-    float mouseX;
-    float mouseY;
-    float mouseSensitivity = 1000f;
+    protected float mouseX;
+    protected float mouseY;
+    protected float mouseSensitivity = 1000f;
     float horzAxis;
     float vertAxis;
 
-    float xRot;
-    float yRot;
+    protected float xRot;
+    protected float yRot;
     float moveSpeed = 12f;
     Vector3 velocity;
     float gravity = -9.8f;
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -39,6 +39,11 @@ public class PlayerController : MonoBehaviour
         CheckJumpTrigger();
         PlayerLook();
         MovePlayer();
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            print("Works on the playercontrolelr script");
+        }
     }
 
     void GetInputs()
@@ -80,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
         // Look left and right
         xRot = mouseX * mouseSensitivity * Time.deltaTime;
-        transform.Rotate(Vector3.up * xRot);
+        transform.Rotate(Vector3.up * xRot); 
     }
 
     void MovePlayer()
