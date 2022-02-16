@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class PlayerPickup : MonoBehaviour
@@ -8,10 +7,17 @@ public class PlayerPickup : MonoBehaviour
 
     Ray ray;
     RaycastHit hit;
+    float radius = 0.5f;
     float maxDistance = 5f;
+
 
     void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
         TrackMouse();
         Pickup();
     }
@@ -25,12 +31,22 @@ public class PlayerPickup : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            print("firing ray");
-
-            if(Physics.Raycast(ray, out hit, maxDistance, objectMask))
+            if (Physics.SphereCast(ray, radius, out hit, maxDistance, objectMask))
             {
-                print("Raycast hit");
+                AddAndCheckItems();
             }
+        }
+    }
+
+    void AddAndCheckItems()
+    {
+        Item hitInfo = hit.collider.GetComponent<ItemInfo>().AccessItem();
+        bool wasPickedUp = Inventory.instance.AddItem(hitInfo);
+        Debug.Log("Picking up: " + hitInfo.name);
+
+        if (wasPickedUp)
+        {
+            hit.collider.enabled = false;
         }
     }
 }
