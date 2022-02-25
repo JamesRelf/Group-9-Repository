@@ -7,9 +7,13 @@ public class PlayerPickup : MonoBehaviour
 
     Ray ray;
     RaycastHit hit;
-    float radius = 0.5f;
+    float radius = 1f;
     float maxDistance = 5f;
 
+    public string prName;
+    public int prIndex;
+    public float prPrice;
+    public float budget = 1000f;
 
     void Update()
     {
@@ -34,6 +38,7 @@ public class PlayerPickup : MonoBehaviour
             if (Physics.SphereCast(ray, radius, out hit, maxDistance, objectMask))
             {
                 AddAndCheckItems();
+                budgetCount();
             }
         }
     }
@@ -42,11 +47,30 @@ public class PlayerPickup : MonoBehaviour
     {
         Item hitInfo = hit.collider.GetComponent<ItemInfo>().AccessItem();
         bool wasPickedUp = Inventory.instance.AddItem(hitInfo);
-        Debug.Log("Picking up: " + hitInfo.name);
+        Debug.Log("Picking up: " + hitInfo.itemCost);
 
         if (wasPickedUp)
-        {
+        { 
             hit.collider.enabled = false;
         }
     }
+    void budgetCount()
+    {
+        Item hitInfo2 = hit.collider.GetComponent<ItemInfo>().AccessItem();
+        prPrice = hitInfo2.itemCost;
+        //prIndex = hitInfo.icon;
+        prName = hitInfo2.name;
+        print(prPrice);
+        budget = budget - prPrice;
+        print(budget);
+    }
+    //public void budgetCount()
+    //{
+    //    var details = hit.collider.GetComponent<ProductDetails>();
+    //    prPrice = details.ProdPrice;
+    //    prIndex = details.ProdIndex;
+    //    prName = details.ProdName;
+    //    budget = budget - prPrice;
+    //    print(budget);
+    //}
 }
