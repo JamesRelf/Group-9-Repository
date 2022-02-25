@@ -8,7 +8,7 @@ public class PlayerPickup : MonoBehaviour
     Ray ray;
     RaycastHit hit;
     float radius = 1f;
-    float maxDistance = 5f;
+    float maxDistance = 2f;
 
     public string prName;
     public int prIndex;
@@ -47,7 +47,7 @@ public class PlayerPickup : MonoBehaviour
     {
         Item hitInfo = hit.collider.GetComponent<ItemInfo>().AccessItem();
         bool wasPickedUp = Inventory.instance.AddItem(hitInfo);
-        Debug.Log("Picking up: " + hitInfo.itemCost);
+        Debug.Log("Picking up: " + hitInfo.name);
 
         if (wasPickedUp)
         { 
