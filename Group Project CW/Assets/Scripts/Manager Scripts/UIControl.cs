@@ -10,11 +10,11 @@ public class UIControl : MonoBehaviour
     public GameObject ShoppingList;
     public GameObject ScrollList;
     public TextMeshProUGUI ShoppingItems;
-    public TextMeshProUGUI CompletedItemsp;
     public List<string> ItemsList;
-    //public string[] CompletedList;
+    public List<GameObject> TFList;
+    public string[] CompletedList;
+    public bool complete = true;
     public string itms;
-
     public int TimeLeft = 1000000;
     public TextMeshProUGUI timer;
     public bool timestop = false;
@@ -25,12 +25,13 @@ public class UIControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ListInput();
+        GetChildren();
     }
 
     // Update is called once per frame
     void Update()
     {
+        ListInput();
         activateList();
         BudgetUpdate();
         if (timestop == false && TimeLeft > 0)
@@ -56,33 +57,24 @@ public class UIControl : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
         }
     }
+    void GetChildren()
+    {
+        foreach (Transform child in ShoppingItems.transform)
+        {
+            TFList.Add(child.gameObject);
+            //print(TFList.Count);
+        }
+    }
     void ListInput()
     {
-        for (var i = 0; i < ItemsList.Count; i++)
+        for (int i = 0; i < ItemsList.Count; i++)
         {
-            itms += "\n" + ItemsList[i];
+            TFList[i].SetActive(true);
+            var getTMPro = TFList[i].gameObject.GetComponent<TextMeshProUGUI>();
+            itms = ItemsList[i];
+            getTMPro.text = itms;
         }
-        ShoppingItems.gameObject.ToString();
-        ShoppingItems.text = itms;
-
-        //if (Input.GetKeyDown("q"))
-        //{
-        //    ShoppingItems.fontStyle = FontStyles.Strikethrough;
-        //    ItemsList.RemoveAt(ItemsList.Count - 1);
-        //    ItemsList.RemoveAll(s => s == null);
-        //}
     }
-    //IEnumerator spawnList()
-    //{
-    //    int currentObj = 0;
-    //    while (currentObj < ItemsList.Count)
-    //    {
-    //        var copy = Instantiate(ShoppingItems);
-    //        copy.transform.parent = ShoppingList.transform;
-    //        copy.transform.SetSiblingIndex(0);
-    //        yield return new WaitForSeconds(3f);
-    //    }
-    //}
 
     //Timer Coroutine
     IEnumerator TimeUpdate()
@@ -95,6 +87,8 @@ public class UIControl : MonoBehaviour
         timer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         timestop = false;
     }
+
+    //Budget
     void BudgetUpdate()
     {
         var PPScript = GameObject.FindWithTag("Player").GetComponent<PlayerPickup>();
@@ -102,3 +96,4 @@ public class UIControl : MonoBehaviour
         Budget.text = TotalBudget.ToString();
     }
 }
+
