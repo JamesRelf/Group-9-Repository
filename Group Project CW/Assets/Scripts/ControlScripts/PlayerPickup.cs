@@ -35,6 +35,7 @@ public class PlayerPickup : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
+            print("Firing ray");
             if (Physics.SphereCast(ray, radius, out hit, maxDistance, objectMask))
             {
                 AddAndCheckItems();

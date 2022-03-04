@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 8107 MB
+OS: 'Windows 10 Home; OS build 19044.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 16215 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-B:\Unity\2020.3.19f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-B:/github/Group-9-Repository/Group Project CW
+C:/Users/j18re/Documents/GitHub/Group-9-Repository/Group Project CW
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56399
-Successfully changed project path to: B:/github/Group-9-Repository/Group Project CW
-B:/github/Group-9-Repository/Group Project CW
+57637
+Successfully changed project path to: C:/Users/j18re/Documents/GitHub/Group-9-Repository/Group Project CW
+C:/Users/j18re/Documents/GitHub/Group-9-Repository/Group Project CW
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
-[Subsystems] Discovering subsystems at path B:/Unity/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path B:/github/Group-9-Repository/Group Project CW/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/j18re/Documents/GitHub/Group-9-Repository/Group Project CW/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f14)
     Vendor:   
-    VRAM:     1982 MB
-    Driver:   30.0.14.9709
+    VRAM:     8031 MB
+    Driver:   30.0.15.1179
 Initialize mono
-Mono path[0] = 'B:/Unity/2020.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'B:/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'B:/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: B:/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004816 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003111 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.288 seconds
+- Completed reload, in  1.553 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3289ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (1554ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1063ms)
-			LoadAssemblies (209ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (456ms)
+			SetupTypeCache (213ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (384ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013188 seconds.
+Registered in 0.004326 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.369 seconds
+- Completed reload, in  1.428 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2371ms)
-		BeginReloadAssembly (434ms)
+	ReloadAssembly (1429ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1801ms)
-			LoadAssemblies (286ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1131ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (588ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (664ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (452ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.7 MB.
-System memory in use after: 69.7 MB.
+System memory in use after: 69.8 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 4.758600 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.108700 ms MarkObjects: 4.288000 ms  DeleteObjects: 0.120200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 3.799100 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.071500 ms MarkObjects: 3.444200 ms  DeleteObjects: 0.091000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,305 +131,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Test Object with textures/can.fbx
-  artifactKey: Guid(fd55308592f81da48a7470dc78a26511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/can.fbx using Guid(fd55308592f81da48a7470dc78a26511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dff7299ab74e49c3f7847b4ccfb041') in 0.684409 seconds 
-  Import took 0.689068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Prefabs/Test Object with textures/small can_lambert1_AlbedoTransparency.1001.png
-  artifactKey: Guid(6fbaa363813ec584ebd52876c42d1eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/small can_lambert1_AlbedoTransparency.1001.png using Guid(6fbaa363813ec584ebd52876c42d1eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4588a30c669ac5dbbdd3b36a0010e15') in 0.050605 seconds 
-  Import took 0.054542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Prefabs/Test Object with textures/small can_lambert1_Normal.1001.png
-  artifactKey: Guid(d901043b0c5ce0d49884cf2b66a5ea99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/small can_lambert1_Normal.1001.png using Guid(d901043b0c5ce0d49884cf2b66a5ea99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10214e037b89aeb903f17f856c0c418') in 0.041034 seconds 
-  Import took 0.045055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Prefabs/Test Object with textures/small can_lambert1_MetallicSmoothness.1001.png
-  artifactKey: Guid(12ab97071691bb74ca1546eb38e67eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/small can_lambert1_MetallicSmoothness.1001.png using Guid(12ab97071691bb74ca1546eb38e67eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1ec95430de879e0eb37c884a5b2d58') in 0.027332 seconds 
-  Import took 0.032295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 213.622669 seconds.
-  path: Assets/Prefabs/Test Object with textures/controller.fbx
-  artifactKey: Guid(58121a126d123ef4bba93e02fcc9782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/controller.fbx using Guid(58121a126d123ef4bba93e02fcc9782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149a8c47249caf10e3d0283a487017ff') in 0.258103 seconds 
-  Import took 0.267657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000625 seconds.
-  path: Assets/Prefabs/Test Object with textures/wired_controller.fbx
-  artifactKey: Guid(bc278f51346c80a43830f869a0399f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wired_controller.fbx using Guid(bc278f51346c80a43830f869a0399f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bf5b742f07fbabf15a7852fac2ccd5') in 0.054099 seconds 
-  Import took 0.060604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000596 seconds.
-  path: Assets/Prefabs/Test Object with textures/wired_earphones.fbx
-  artifactKey: Guid(585b6a5a7254bb84eafe64d496d436c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wired_earphones.fbx using Guid(585b6a5a7254bb84eafe64d496d436c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33c46768ac8406e6cc66dad6185fe35') in 0.046672 seconds 
-  Import took 0.053029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000634 seconds.
-  path: Assets/Prefabs/Test Object with textures/wireless_earphones.fbx
-  artifactKey: Guid(54de8ef3f10e71645a816789b873b0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wireless_earphones.fbx using Guid(54de8ef3f10e71645a816789b873b0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460279a636e68039dd5e7c6428e9fd1d') in 0.066697 seconds 
-  Import took 0.073424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Prefabs/Test Object with textures/wired_headphones.fbx
-  artifactKey: Guid(221fdf7ca960b0744978fd387cb8e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wired_headphones.fbx using Guid(221fdf7ca960b0744978fd387cb8e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008381a4b60ec0d56cd5278929a6d43a') in 0.059726 seconds 
-  Import took 0.067749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.700058 seconds.
-  path: Assets/Prefabs/Test Object with textures/all_in_one_pc.fbx
-  artifactKey: Guid(806509e8f63741b4e8a8110576d170c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/all_in_one_pc.fbx using Guid(806509e8f63741b4e8a8110576d170c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be84ab9d632b211206c930cf612a487') in 0.060935 seconds 
-  Import took 0.068013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/Prefabs/Test Object with textures/cheap_phone.fbx
-  artifactKey: Guid(113f974d2d4fcdf409bb47865563c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/cheap_phone.fbx using Guid(113f974d2d4fcdf409bb47865563c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec0b737821cdbe284ee73d9c50a54eb') in 0.045566 seconds 
-  Import took 0.052826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Prefabs/Test Object with textures/candybar.fbx
-  artifactKey: Guid(995a850b8184b094c8c61f7baeeee18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/candybar.fbx using Guid(995a850b8184b094c8c61f7baeeee18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23213eeb0ac83fe556f8feeaa48927b0') in 0.054092 seconds 
-  Import took 0.060857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000585 seconds.
-  path: Assets/Prefabs/Test Object with textures/usb_stick_two.fbx
-  artifactKey: Guid(39ea39eb645455644b917ffbf579aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/usb_stick_two.fbx using Guid(39ea39eb645455644b917ffbf579aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5deed450369b8b3ad97abd25f17edc0') in 0.052634 seconds 
-  Import took 0.059056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000648 seconds.
-  path: Assets/Prefabs/Test Object with textures/double_speaker.fbx
-  artifactKey: Guid(830d60ae5dbf66349b4f4d0b4ce04d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/double_speaker.fbx using Guid(830d60ae5dbf66349b4f4d0b4ce04d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51db41c94d192fe3406e641adb5e22cc') in 0.063548 seconds 
-  Import took 0.069674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Prefabs/Test Object with textures/small_smartwatch.fbx
-  artifactKey: Guid(5af152edfc813784e97bcf8368e5c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/small_smartwatch.fbx using Guid(5af152edfc813784e97bcf8368e5c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f20d4ce3df675a2df43fefc70f2c54') in 0.047470 seconds 
-  Import took 0.053585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000570 seconds.
-  path: Assets/Prefabs/Test Object with textures/expensive_console.fbx
-  artifactKey: Guid(9e09bdc3d84dc81488e0008b7d323232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/expensive_console.fbx using Guid(9e09bdc3d84dc81488e0008b7d323232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecbf5364ab4490d564ba41020bb4efc') in 0.047700 seconds 
-  Import took 0.053858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/Prefabs/Test Object with textures/cheap_pc_screen.fbx
-  artifactKey: Guid(3e56bf9da26dc544caded1d4cf979e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/cheap_pc_screen.fbx using Guid(3e56bf9da26dc544caded1d4cf979e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f14087ac93a58db9034194c654df78') in 0.061418 seconds 
-  Import took 0.069153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/Prefabs/Test Object with textures/expensive_laptop.fbx
-  artifactKey: Guid(3bd9b145629fc224399d04d73308be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/expensive_laptop.fbx using Guid(3bd9b145629fc224399d04d73308be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdb4141ec6cbb2b4323d5018f7b03f1') in 0.048419 seconds 
-  Import took 0.054328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/Prefabs/Test Object with textures/mouse.fbx
-  artifactKey: Guid(68765fcd461129945b350c32611904ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/mouse.fbx using Guid(68765fcd461129945b350c32611904ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6d15bcabef85e97f293adcdb41164b') in 0.183700 seconds 
-  Import took 0.190333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/Prefabs/Test Object with textures/large_speaker.fbx
-  artifactKey: Guid(856b5f63ac5df9e47b2c57f107687d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/large_speaker.fbx using Guid(856b5f63ac5df9e47b2c57f107687d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d638b17482d1e676ad97fd258ebb28') in 0.050860 seconds 
-  Import took 0.056753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/Prefabs/Test Object with textures/mini_speaker.fbx
-  artifactKey: Guid(da1c08fd73329a54490025bb2420a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/mini_speaker.fbx using Guid(da1c08fd73329a54490025bb2420a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3177856a22fe3cd2b29bde8f3ef2b77d') in 0.048197 seconds 
-  Import took 0.057198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000659 seconds.
-  path: Assets/Prefabs/Test Object with textures/TV.fbx
-  artifactKey: Guid(939e90f6a990f32409147bb23dd63c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/TV.fbx using Guid(939e90f6a990f32409147bb23dd63c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603f98a23a850cd66615d655a3753cd8') in 0.069115 seconds 
-  Import took 0.075586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000638 seconds.
-  path: Assets/Prefabs/Test Object with textures/keyboard1.fbx
-  artifactKey: Guid(24069b2a5faa8134c8ff8211f1e1e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/keyboard1.fbx using Guid(24069b2a5faa8134c8ff8211f1e1e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653a4676050bc5e04e04542e8a72b196') in 0.065817 seconds 
-  Import took 0.122001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/Prefabs/Test Object with textures/cheap_smartwatch.fbx
-  artifactKey: Guid(34e36504e7e2299449d49f5c929be5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/cheap_smartwatch.fbx using Guid(34e36504e7e2299449d49f5c929be5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8441e693668942b61529b7073b59bdf') in 0.048785 seconds 
-  Import took 0.055386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000631 seconds.
-  path: Assets/Prefabs/Test Object with textures/console.fbx
-  artifactKey: Guid(daf94cfa463f62248b7c325774602cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/console.fbx using Guid(daf94cfa463f62248b7c325774602cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e905dcba6bb9b52183a07f3673031392') in 0.049694 seconds 
-  Import took 0.056042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000605 seconds.
-  path: Assets/Prefabs/Test Object with textures/expensive_phone.fbx
-  artifactKey: Guid(a9e6d83ff006d2545983ed3d39fbc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/expensive_phone.fbx using Guid(a9e6d83ff006d2545983ed3d39fbc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61f64c0c20461299aaa96164086969b') in 0.047848 seconds 
-  Import took 0.054070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000622 seconds.
-  path: Assets/Prefabs/Test Object with textures/expensive_smartwatch.fbx
-  artifactKey: Guid(c5a90a23476398d42bb6a8835e138ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/expensive_smartwatch.fbx using Guid(c5a90a23476398d42bb6a8835e138ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63464d3721e0bda2eb7f452b8a9da6a') in 0.046080 seconds 
-  Import took 0.052007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Prefabs/Test Object with textures/pc.fbx
-  artifactKey: Guid(38d689aac677f464aad311f34a1efa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/pc.fbx using Guid(38d689aac677f464aad311f34a1efa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04483183c055f832fa083885e2185d1b') in 0.064725 seconds 
-  Import took 0.070768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Prefabs/Test Object with textures/tablet.fbx
-  artifactKey: Guid(b07155b4d43cfc24396ac1dc1678b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/tablet.fbx using Guid(b07155b4d43cfc24396ac1dc1678b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5e2a90a03cf23cf1eb1fd6cb8b1af8') in 0.046088 seconds 
-  Import took 0.052126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000645 seconds.
-  path: Assets/Prefabs/Test Object with textures/expensive_pc_screen.fbx
-  artifactKey: Guid(71a3e96bc7a631148b19216125be988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/expensive_pc_screen.fbx using Guid(71a3e96bc7a631148b19216125be988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0301b88dc5249b5eceb2d7fc142fcb') in 0.050237 seconds 
-  Import took 0.056606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/Prefabs/Test Object with textures/usb_stick.fbx
-  artifactKey: Guid(056b37b5616888f4c92a56dc8c6eb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/usb_stick.fbx using Guid(056b37b5616888f4c92a56dc8c6eb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f452eb603261a9e509c65fefa0fd4fcc') in 0.064856 seconds 
-  Import took 0.071811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000643 seconds.
-  path: Assets/Prefabs/Test Object with textures/ipad.fbx
-  artifactKey: Guid(6d338510693f7d749bb3023502b591cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/ipad.fbx using Guid(6d338510693f7d749bb3023502b591cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f40ec0c2ee9dc477f4bfaca7a3ac232') in 0.066937 seconds 
-  Import took 0.073955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000570 seconds.
-  path: Assets/Prefabs/Test Object with textures/cheap_laptop.fbx
-  artifactKey: Guid(248ec5c77aa9fc14490d46a98b5ed2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/cheap_laptop.fbx using Guid(248ec5c77aa9fc14490d46a98b5ed2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8656e8f56f90231887a194ab73955415') in 0.062226 seconds 
-  Import took 0.069230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Prefabs/Test Object with textures/wired_mouse.fbx
-  artifactKey: Guid(fc572d2d251d6104c8a5c900c2bf232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wired_mouse.fbx using Guid(fc572d2d251d6104c8a5c900c2bf232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e790bb05baefa1387a65a5ad2247cd') in 0.051376 seconds 
-  Import took 0.061388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000544 seconds.
-  path: Assets/Prefabs/Test Object with textures/cheap_pc.fbx
-  artifactKey: Guid(c8a27cd9b5cb31e4a9ee70327d6898f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/cheap_pc.fbx using Guid(c8a27cd9b5cb31e4a9ee70327d6898f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccaa1c72e17bd864e23bb9d4aa00734') in 0.070917 seconds 
-  Import took 0.077994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/Prefabs/Test Object with textures/wall_mounted_tv.fbx
-  artifactKey: Guid(4ce8c747f0a561f4bb18f97ec0752fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wall_mounted_tv.fbx using Guid(4ce8c747f0a561f4bb18f97ec0752fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc099222e6916e06ef89d74191eb2b0') in 0.050632 seconds 
-  Import took 0.057049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.131391 seconds.
-  path: Assets/Prefabs/Test Object with textures/wireless_headphones.fbx
-  artifactKey: Guid(9ca9a3b3be756e8479572159e82f83b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wireless_headphones.fbx using Guid(9ca9a3b3be756e8479572159e82f83b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dca8ae8a494dde1871459d0891cf5e') in 0.049960 seconds 
-  Import took 0.057151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000813 seconds.
-  path: Assets/Prefabs/Test Object with textures/wireless_keyboard.fbx
-  artifactKey: Guid(e6bf648cc7564cd4cbcd4a8d28bced23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test Object with textures/wireless_keyboard.fbx using Guid(e6bf648cc7564cd4cbcd4a8d28bced23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea524808ad31b13b0a14a549e1e0b04c') in 0.051423 seconds 
-  Import took 0.058244 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d1d522a4db13d8849abb1a41e0974e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d1d522a4db13d8849abb1a41e0974e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2429d4a30a59267e3c18b3eb2226d41c') in 0.062035 seconds 
+  Import took 0.065169 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
