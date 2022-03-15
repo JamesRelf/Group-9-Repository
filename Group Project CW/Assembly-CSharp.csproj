@@ -60,16 +60,18 @@
     <Compile Include="Assets\Scripts\Invnetory Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerPickup.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\EndScreenUI.cs" />
     <Compile Include="Assets\Scripts\AI Scripts\AIController.cs" />
     <Compile Include="Assets\Scripts\ButtonControl.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerPickup2.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\ItemInfo.cs" />
-    <Compile Include="Assets\Scripts\ControlScripts\PleaseWork.cs" />
-    <Compile Include="Assets\Scripts\Invnetory Scripts\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\EndScreenSlot.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\UIControl.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\ProductDetails.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\GManager.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\ShoppingListUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

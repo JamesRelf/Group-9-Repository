@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class InventoryUI : MonoBehaviour
 {
     public Transform itemsParent;
     public GameObject inventoryUI;
+    public GameObject shoppingListUI;
 
     Inventory inventory;
     InventorySlot[] itemSlots;
+
 
     void Start()
     {
@@ -23,6 +27,11 @@ public class InventoryUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             inventoryUI.SetActive(!inventoryUI.activeSelf);
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            shoppingListUI.SetActive(!shoppingListUI.activeSelf);
         }
     }
 

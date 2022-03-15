@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Monitor
   m_EditorClassIdentifier: 
   name: Monitor
-  icon: {fileID: 21300000, guid: f7b6e41347205974fb7ab38684137545, type: 3}
+  icon: {fileID: 21300000, guid: 45ebf78ec262a8a4cb7eaf92689ad1f7, type: 3}
   itemCost: 200

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Keyboard
   m_EditorClassIdentifier: 
   name: Keyboard
-  icon: {fileID: 21300000, guid: 20d91f3dac521c9448dd7fc905ceb110, type: 3}
+  icon: {fileID: 21300000, guid: fbcb0f25c97f1374a91970cb6bedffd4, type: 3}
   itemCost: 70

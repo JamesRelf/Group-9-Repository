@@ -14,7 +14,7 @@ public class UIControl : MonoBehaviour
     public List<GameObject> TFList;
     public string[] CompletedList;
     public bool complete = true;
-    public string itms;
+    public string items;
     public int TimeLeft = 1000000;
     public TextMeshProUGUI timer;
     public bool timestop = false;
@@ -26,13 +26,14 @@ public class UIControl : MonoBehaviour
     void Start()
     {
         GetChildren();
+        ShoppingItems.fontStyle = FontStyles.Strikethrough;
     }
 
     // Update is called once per frame
     void Update()
     {
         ListInput();
-        activateList();
+        ActivateList();
         BudgetUpdate();
         if (timestop == false && TimeLeft > 0)
         {
@@ -41,7 +42,7 @@ public class UIControl : MonoBehaviour
     }
 
     //Shopping List Codes
-    void activateList()
+    void ActivateList()
     {
         if (Input.GetKey(KeyCode.P))
         {
@@ -71,8 +72,8 @@ public class UIControl : MonoBehaviour
         {
             TFList[i].SetActive(true);
             var getTMPro = TFList[i].gameObject.GetComponent<TextMeshProUGUI>();
-            itms = ItemsList[i];
-            getTMPro.text = itms;
+            items = ItemsList[i];
+            getTMPro.text = items;
         }
     }
 

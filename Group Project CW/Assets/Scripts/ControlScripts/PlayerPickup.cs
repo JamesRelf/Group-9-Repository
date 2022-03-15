@@ -39,7 +39,7 @@ public class PlayerPickup : MonoBehaviour
             if (Physics.SphereCast(ray, radius, out hit, maxDistance, objectMask))
             {
                 AddAndCheckItems();
-                budgetCount();
+                BudgetCount();
             }
         }
     }
@@ -55,7 +55,7 @@ public class PlayerPickup : MonoBehaviour
             hit.collider.enabled = false;
         }
     }
-    void budgetCount()
+    void BudgetCount()
     {
         Item hitInfo2 = hit.collider.GetComponent<ItemInfo>().AccessItem();
         prPrice = hitInfo2.itemCost;
