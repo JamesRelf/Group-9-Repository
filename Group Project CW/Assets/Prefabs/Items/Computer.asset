@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10dd32d115275cb42bc2f428991a8095, type: 3}
   m_Name: Computer
   m_EditorClassIdentifier: 
-  name: Computer
+  _name: Computer
   icon: {fileID: 21300000, guid: b075f3735a47b6041b72f3aed5f74be9, type: 3}
   itemCost: 500
+  productInformation: {fileID: 8178703146633124907, guid: 82cfa17f8bc3e384e83bb2d7c4c2c583, type: 3}

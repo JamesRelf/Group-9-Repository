@@ -5,26 +5,30 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     #region Singleton
-    public static Inventory instance;
+    public static Inventory inventoryInstance;
 
     void Awake()
     {
-        if (instance != null)
+        CreateInventoryInstance();
+    }
+
+    void CreateInventoryInstance()
+    {
+        if (inventoryInstance != null)
         {
             Debug.LogWarning("More than one instance of Inventory found!");
             return;
         }
 
-        instance = this;
+        inventoryInstance = this;
     }
-
     #endregion
 
     //Call to communicate inventory has changed
     public delegate void OnItemChanged();
-    public OnItemChanged onItemChangeCallback;
+    public OnItemChanged onItemChanged;
 
-    public int inventorySpace = 20;
+    public int inventorySpace = 4;
 
     public List<Item> items = new List<Item>();
 
@@ -38,9 +42,9 @@ public class Inventory : MonoBehaviour
 
         items.Add(item);
 
-        if (onItemChangeCallback != null)
+        if (onItemChanged != null)
         {
-            onItemChangeCallback.Invoke();
+            onItemChanged.Invoke();
         }
 
         return true;
@@ -50,9 +54,9 @@ public class Inventory : MonoBehaviour
     {
         items.Remove(item);
 
-        if (onItemChangeCallback != null)
+        if (onItemChanged != null)
         {
-            onItemChangeCallback.Invoke();
+            onItemChanged.Invoke();
         }
     }
 }

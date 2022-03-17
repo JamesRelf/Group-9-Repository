@@ -11,8 +11,8 @@ public class ShoppingListUI : MonoBehaviour
 
     void Start()
     {
-        inventory = Inventory.instance;
-        inventory.onItemChangeCallback += UpdateShoppingList;
+        inventory = Inventory.inventoryInstance;
+        inventory.onItemChanged += UpdateShoppingList;
 
         SetShoppingList();
     }
@@ -22,7 +22,7 @@ public class ShoppingListUI : MonoBehaviour
     {
         for(int i = 0; i < text.Length; i++)
         {
-            text[i].text = item[i].name;
+            text[i].text = item[i]._name;
         }
     }
 
@@ -32,7 +32,7 @@ public class ShoppingListUI : MonoBehaviour
         {
             for(int j = 0; j < inventory.items.Count; j++)
             {
-                if (text[i].text == inventory.items[j].name)
+                if (text[i].text == inventory.items[j]._name)
                 {
                     text[i].fontStyle = FontStyles.Strikethrough;
                 }

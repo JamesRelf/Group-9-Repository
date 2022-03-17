@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
-    public Image itemImage;
-    public Button removeItemButton;
+    [SerializeField] Image itemImage;
+    [SerializeField] Button removeItemButton;
 
     Item item;
 
@@ -30,7 +30,7 @@ public class InventorySlot : MonoBehaviour
 
     public void OnRemoveButton()
     {
-        Inventory.instance.RemoveItem(item);
+        Inventory.inventoryInstance.RemoveItem(item);
     }
 
     public void UseItem()

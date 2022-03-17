@@ -65,13 +65,14 @@
     <Compile Include="Assets\Scripts\ButtonControl.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerPickup2.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\ItemInfo.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\ShoppingListUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\EndScreenSlot.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\UIControl.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\ProductDetails.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\GManager.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\ShoppingListUI.cs" />
+    <Compile Include="Assets\Scripts\Invnetory Scripts\IUseable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
