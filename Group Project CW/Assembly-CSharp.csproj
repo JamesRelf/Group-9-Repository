@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Manager Scripts\UIControl.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\ProductDetails.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\GManager.cs" />
+    <Compile Include="Assets\Scripts\Invnetory Scripts\IUseable.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
