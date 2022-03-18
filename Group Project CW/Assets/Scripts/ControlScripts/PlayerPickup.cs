@@ -47,8 +47,8 @@ public class PlayerPickup : MonoBehaviour
     void AddAndCheckItems()
     {
         Item hitInfo = hit.collider.GetComponent<ItemInfo>().AccessItem();
-        bool wasPickedUp = Inventory.instance.AddItem(hitInfo);
-        Debug.Log("Picking up: " + hitInfo.name);
+        bool wasPickedUp = Inventory.inventoryInstance.AddItem(hitInfo);
+        Debug.Log("Picking up: " + hitInfo._name);
 
         if (wasPickedUp)
         { 
@@ -60,7 +60,7 @@ public class PlayerPickup : MonoBehaviour
         Item hitInfo2 = hit.collider.GetComponent<ItemInfo>().AccessItem();
         prPrice = hitInfo2.itemCost;
         //prIndex = hitInfo.icon;
-        prName = hitInfo2.name;
+        prName = hitInfo2._name;
         print(prPrice);
         budget = budget - prPrice;
         print(budget);

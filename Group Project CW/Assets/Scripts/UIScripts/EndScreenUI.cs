@@ -12,8 +12,8 @@ public class EndScreenUI : MonoBehaviour
 
     void Start()
     {
-        inventory = Inventory.instance;
-        inventory.onItemChangeCallback += UpdateEndScreenUI;
+        inventory = Inventory.inventoryInstance;
+        inventory.onItemChanged += UpdateEndScreenUI;
 
         endScreenSlots = itemsParent.GetComponentsInChildren<EndScreenSlot>();
     }

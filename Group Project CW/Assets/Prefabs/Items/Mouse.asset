@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10dd32d115275cb42bc2f428991a8095, type: 3}
   m_Name: Mouse
   m_EditorClassIdentifier: 
-  name: Mouse
+  _name: Mouse
   icon: {fileID: 21300000, guid: b388aeb6bc27ca649a8078d75a39bb1b, type: 3}
   itemCost: 30
+  productInformation: {fileID: 1809995608240324131, guid: 52bc2bf9c299833449f710b0b7059523, type: 3}

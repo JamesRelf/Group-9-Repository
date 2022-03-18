@@ -8,7 +8,7 @@ public class ButtonControl : MonoBehaviour
     public void Play()
     {
         string SceneName = "";
-        SceneManager.LoadScene("rohit scene");
+        SceneManager.LoadScene("Designer's Work");
     }
     public void Exit()
     {
