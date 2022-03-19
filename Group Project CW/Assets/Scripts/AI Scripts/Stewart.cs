@@ -15,7 +15,6 @@ public class Stewart : MonoBehaviour
 
     public void CallAnimate()
     {
-        animate = animator.Incriment();
         animator.Animate(animate);
     }
 }

@@ -1,3 +1,5 @@
+// Code edited from Brackeys (2017) INVENTORY CODE - Making an RPG in Unity (E06). How to make an RPG in Unity. 
+//[Online Video] Available at: https://www.youtube.com/watch?v=YLhj7SfaxSE&list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7&index=7 [Accessed 11/02/2022]
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,6 +29,15 @@ public class InventoryUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             inventoryUI.SetActive(!inventoryUI.activeSelf);
+
+            if (inventoryUI.activeSelf == false)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+            else if (inventoryUI.activeSelf == true)
+            {
+                Cursor.lockState = CursorLockMode.Confined;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.L))
