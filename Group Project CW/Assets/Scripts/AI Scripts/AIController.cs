@@ -7,11 +7,13 @@ public class AIController : MonoBehaviour
 {
     [SerializeField] Transform[] points;
     [SerializeField] float waitTime = 1.5f;
+    [SerializeField] Animator animator;
 
     NavMeshAgent agent;
     Vector3 target;
     int pointIndex;
     float currentWait;
+    int reachedPoint = 0;
 
 
 
@@ -26,14 +28,19 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
+        if (!agent.isStopped) Animate(1f);
+
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
         {
             currentWait += Time.deltaTime;
             agent.isStopped = true;
+            Animate(0f);
+            Incriment();
             if (currentWait >= waitTime)
             {
                 UpdatePointIndex();
                 NextPoint();
+                Animate(1f);
                 agent.isStopped = false;
                 currentWait = 0f;
             }
@@ -58,5 +65,23 @@ public class AIController : MonoBehaviour
 
         target = points[pointIndex].position;
         agent.SetDestination(target);
+    }
+
+    public void Animate(float movement)
+    {
+        animator.SetFloat("Blend", movement, 0.025f, Time.deltaTime);
+        print(movement);
+    }
+
+    public int Incriment()
+    {
+        reachedPoint++;
+
+        if(reachedPoint >= 2)
+        {
+            reachedPoint = 0;
+        }
+
+        return reachedPoint;
     }
 }
