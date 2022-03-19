@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AI Scripts\DrawPoints.cs" />
+    <Compile Include="Assets\Scripts\AI Scripts\Steven.cs" />
     <Compile Include="Assets\Scripts\UIScripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\Checkout.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\Item.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\Scripts\ButtonControl.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerPickup2.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\ItemInfo.cs" />
+    <Compile Include="Assets\Scripts\AI Scripts\Stewart.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ShoppingListUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\EndScreenSlot.cs" />
@@ -73,8 +75,7 @@
     <Compile Include="Assets\Scripts\Manager Scripts\GManager.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\IUseable.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\AI Scripts\Steven.cs" />
-    <Compile Include="Assets\Scripts\AI Scripts\Stewart.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\SceneManagment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

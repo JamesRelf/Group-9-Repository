@@ -35,7 +35,6 @@ public class AIController : MonoBehaviour
             currentWait += Time.deltaTime;
             agent.isStopped = true;
             Animate(0f);
-            Incriment();
             if (currentWait >= waitTime)
             {
                 UpdatePointIndex();
@@ -73,15 +72,5 @@ public class AIController : MonoBehaviour
         print(movement);
     }
 
-    public int Incriment()
-    {
-        reachedPoint++;
 
-        if(reachedPoint >= 2)
-        {
-            reachedPoint = 0;
-        }
-
-        return reachedPoint;
-    }
 }
