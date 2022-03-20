@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\UIScripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\Manager Scripts\Checkout.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\SceneManagment.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\PlayerPickup.cs" />
     <Compile Include="Assets\Scripts\Invnetory Scripts\Inventory.cs" />
