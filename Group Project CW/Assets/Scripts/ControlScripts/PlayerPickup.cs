@@ -13,7 +13,7 @@ public class PlayerPickup : MonoBehaviour
     public string prName;
     public int prIndex;
     public float prPrice;
-    public float budget = 1000f;
+    public float budget;
 
     void Update()
     {

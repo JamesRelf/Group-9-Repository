@@ -69,7 +69,7 @@ public class AIController : MonoBehaviour
     public void Animate(float movement)
     {
         animator.SetFloat("Blend", movement, 0.025f, Time.deltaTime);
-        print(movement);
+        //print(movement);
     }
 
 
