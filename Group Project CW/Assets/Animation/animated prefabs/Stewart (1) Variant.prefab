@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3383147182557525526, guid: b2ae75d51e2e17f4ebdb2fb240773e95, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1320794c9d77962498ad8448601f059c, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b561cca6c66b8f4d91dc87477c1ce04, type: 2}
     - target: {fileID: 4394090906412167374, guid: b2ae75d51e2e17f4ebdb2fb240773e95, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6669357945491535955, guid: b2ae75d51e2e17f4ebdb2fb240773e95, type: 3}
       propertyPath: m_Name
-      value: Stewart (1)
+      value: Stewart (1) Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2ae75d51e2e17f4ebdb2fb240773e95, type: 3}

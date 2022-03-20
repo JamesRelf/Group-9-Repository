@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2984551254740441703, guid: f6d48f23271ebdc41a5f256169d57f30, type: 3}
       propertyPath: m_Name
-      value: Steven (1)
+      value: Steven (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5057943231723880484, guid: f6d48f23271ebdc41a5f256169d57f30, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -62,6 +62,6 @@ PrefabInstance:
     - target: {fileID: 6563515190959658018, guid: f6d48f23271ebdc41a5f256169d57f30, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 17109d6a345779849a10e4e6bf520c80, type: 2}
+      objectReference: {fileID: 2100000, guid: b6f78b69b10c6fc4194f41361f3dd199, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6d48f23271ebdc41a5f256169d57f30, type: 3}
