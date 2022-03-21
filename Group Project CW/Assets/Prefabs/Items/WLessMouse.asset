@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10dd32d115275cb42bc2f428991a8095, type: 3}
+  m_Name: WLessMouse
+  m_EditorClassIdentifier: 
+  _name: Mouse
+  icon: {fileID: 21300000, guid: 1d96d5353b27e4444ac1b48769143664, type: 3}
+  itemCost: 60
+  productInformation: {fileID: 0}

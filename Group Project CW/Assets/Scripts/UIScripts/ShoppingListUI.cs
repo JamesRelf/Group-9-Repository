@@ -5,7 +5,6 @@ public class ShoppingListUI : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI[] text;
     [SerializeField] Item[] item;
-    public int ItemsLeft;
 
     
     Inventory inventory;
@@ -34,8 +33,6 @@ public class ShoppingListUI : MonoBehaviour
                 if (text[i].text == inventory.items[j]._name)
                 {
                     text[i].fontStyle = FontStyles.Strikethrough;
-                    ItemsLeft = ItemsLeft - 1 ;
-                    print(ItemsLeft);
                 }
                 
             }
