@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5004606, g: 0.36925697, b: 0.30736306, a: 1}
+  m_IndirectSpecularColor: {r: 0.5004599, g: 0.36925665, b: 0.3073628, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6075,7 +6075,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.6745098, g: 0.24313727, b: 1, a: 0.11764706}
+      maxColor: {r: 0, g: 0.47738734, b: 0.7169812, a: 0.19607843}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
