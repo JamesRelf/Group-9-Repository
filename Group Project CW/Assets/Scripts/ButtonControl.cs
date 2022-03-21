@@ -14,4 +14,14 @@ public class ButtonControl : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Controls()
+    {
+        SceneManager.LoadScene("Controls");
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Start");
+    }
 }
