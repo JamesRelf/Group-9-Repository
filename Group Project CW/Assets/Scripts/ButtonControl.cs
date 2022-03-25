@@ -15,6 +15,7 @@ public class ButtonControl : MonoBehaviour
     {
         MenuScreen.SetActive(false);
         SliderGO.SetActive(true);
+        Time.timeScale = 1;
         StartCoroutine(Loading(scenename));
     }
     public void Exit()

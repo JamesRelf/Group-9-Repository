@@ -55,7 +55,26 @@ nav ul li a:hover{
     height: 50%;
     width: 50%;
 }
-
+.download{
+    margin-left: -80%;
+    margin-top: 10%;    
+}
+.DButton{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+	font-size:20px;
+    color: cyan;
+}
+.DButton:hover{
+    height: 40px;
+    width: 110px;
+    color: purple;
+}
+.vid{
+    margin-left: -120%;
+    margin-top: -40%;    
+}
 .main-nav {
     position: absolute;
     top: 60%;
@@ -121,37 +140,37 @@ nav ul li a:hover{
 }
 
 .main-nav li .bg {
-  width: 200%;
+  width: 100%;
   height: 100%;
   transform: scale(1.1);
 }
 
 .main-nav li.item1 .bg {
-  background: url("Images/race vr 1.jpg");
-/*  background-size: cover;*/
+  background: url("Images/SS1.png");
+    background-size: 270px 270px;
   background-position: center;
 }
 
 .main-nav li.item2 .bg {
-  background: url("Images/race vr2.jpg");
-/*  background-size: cover;*/
+  background: url("Images/SS2.png");
+  background-size: 270px 270px;
   background-position: center;
 }
 
 .main-nav li.item3 .bg {
-  background: url("Images/race vr 3.jpg");
-/*  background-size: cover;*/
+  background: url("Images/G9Logo.png");
+  background-size: 270px 270px;
   background-position: center;
 }
 
 .main-nav li.item4 .bg {
-  background: url("Images/ZS1.jfif");
-/*  background-size: cover;*/
+  background: url("Images/SS4.png");
+  background-size: 270px 270px;
   background-position: center;
 }
 
 .main-nav li.item5 .bg {
-  background:  url("Images/ZS2.jpg");
-/*  background-size: cover;*/
+  background:  url("Images/SS3.png");
+  background-size: 270px 270px;
   background-position: center;
 }
