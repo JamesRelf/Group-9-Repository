@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     protected float mouseX;
     protected float mouseY;
-    protected float mouseSensitivity = 1000f;
+    protected float mouseSensitivity = 400f;
     float horzAxis;
     float vertAxis;
 
