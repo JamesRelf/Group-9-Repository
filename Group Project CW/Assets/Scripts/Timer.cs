@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using TMPro;
 public class Timer : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class Timer : MonoBehaviour
         }
         if(TimeLeft == 0)
         {
+            Cursor.lockState = CursorLockMode.None;
             Messages.text = "You ran out of time \n Returning to Main Menu";
             StartCoroutine(MessageWait());
         }

@@ -5626,7 +5626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6ea9f0d80a3f043ac62b6aa4046aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeLeft: 120
+  TimeLeft: 2
   timer: {fileID: 2038916732}
   MessageParent: {fileID: 1431562812}
   Messages: {fileID: 894143731}
